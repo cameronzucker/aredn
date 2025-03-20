@@ -1278,7 +1278,7 @@
     }
   },
   "qemu": {
-    "name": "QEMU PC"
+    "name": "QEMU PC, WiFi-Enabled"
     "wlan0": {
        "maxpower": 20,
        "exclude_bandwidths": [ 5, 10 ],
