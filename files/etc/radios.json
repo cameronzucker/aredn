@@ -1279,6 +1279,22 @@
   },
   "qemu": {
     "name": "QEMU PC"
+        "wlan0": {
+      "maxpower": 20,
+      "antenna": {
+        "description": "1.5 dBi Omni",
+        "gain": 1.5,
+        "beamwidth": 360
+      }
+    },
+    "wlan1": {
+      "maxpower": 20,
+      "exclude_bandwidths": [ 5 ],
+      "antenna": {
+        "description": "2 dBi Omni",
+        "gain": 2,
+        "beamwidth": 360
+
   },
   "vmware": {
     "name": "VMware PC"
